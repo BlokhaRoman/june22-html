@@ -1,0 +1,18 @@
+p   {
+    background: greenyellow;
+    color: cornflowerblue;
+    text-align: center;
+
+}
+ul {
+    background: blue;
+    color: yellow;
+}
+h1, h2, h3  {
+    background: red;
+    color: black;
+    text-align: center;
+}
+img {
+    width: 400px;
+}
