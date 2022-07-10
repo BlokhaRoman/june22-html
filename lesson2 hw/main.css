@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 20%;
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid silver;
+    text-align: center;
+    }
+
+button {
+    width: 100px;
+    height: 35px;
+}
