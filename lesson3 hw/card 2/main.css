@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3%;
+    font-size: 30px;
+}
+h3{
+    color: sandybrown;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 20%;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid silver;
+    text-align: center;
+
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 2px solid silver;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    background: white;
+    color: sandybrown;
+}
+p{
+    color: silver;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 25px;
+
+}
+button:hover{
+    background: gray;
+}
