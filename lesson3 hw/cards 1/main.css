@@ -1,0 +1,54 @@
+.header{
+    width: 700px;
+    height: 400px;
+    background: #0e1854;
+    margin: auto;
+    position: relative;
+}
+.nav{
+    width: 700px;
+    height: 80px;
+    background: #b4cbe0;
+    margin: auto;
+    position: relative;
+}
+.left {
+    width: 90px;
+    height: 25px;
+    background: #16457a;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    border-radius: 5px;
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+i{
+    font-size: 25px;
+    color: #8662d7;
+    margin: 5px;
+}
+.boxes{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: #16457a;
+    border-radius: 20px;
+}
+.bottom{
+    width: 700px;
+    height: 200px;
+    background: #b4cbe0;
+    margin: auto;
+}
